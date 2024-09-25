@@ -11,7 +11,7 @@ public class Libro {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private String nombre;
+    private String nombress;
     private String autor;
     private Long precio;
 
@@ -25,12 +25,12 @@ public class Libro {
         this.id = id;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getnombres() {
+        return nombres;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setnombres(String nombres) {
+        this.nombres = nombres;
     }
 
     public String getAutor() {
