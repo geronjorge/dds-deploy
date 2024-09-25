@@ -18,11 +18,11 @@ public class Libro {
 
 
     public Long getId() {
-        return ids;
+        return id;
     }
 
     public void setId(Long id) {
-        this.id = id;
+        this.ids = id;
     }
 
     public String getnombres() {
