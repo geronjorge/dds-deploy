@@ -18,7 +18,7 @@ public class Libro {
 
 
     public Long getId() {
-        return id;
+        return ids;
     }
 
     public void setId(Long id) {
