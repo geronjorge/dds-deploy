@@ -22,7 +22,7 @@ public class Libro {
     }
 
     public void setId(Long id) {
-        this.ids = id;
+        this.id = id;
     }
 
     public String getnombres() {
